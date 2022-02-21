@@ -25,35 +25,35 @@ def getLatestBuffOmbCount(soup):
     return sender[len(sender)-1].getText()
 
 def setMessageCache(txt):
-    with open("msgCache",'w',encoding='utf-8') as f:
+    with open("Cache/msgCache",'w',encoding='utf-8') as f:
         f.write(txt)
 
 def getMessageCache():
-    with open("msgCache",'r',encoding='utf-8') as f:
+    with open("Cache/msgCache",'r',encoding='utf-8') as f:
         return f.read()
 
 def setBuffCache(txt):
-    with open("buffCache",'w',encoding='utf-8') as f:
+    with open("Cache/buffCache",'w',encoding='utf-8') as f:
         f.write(txt)
 
 def getBuffCache():
-    with open("buffCache",'r',encoding='utf-8') as f:
+    with open("Cache/buffCache",'r',encoding='utf-8') as f:
         return f.read()
 
 def setBuffCache(txt):
-    with open("buffCache",'w',encoding='utf-8') as f:
+    with open("Cache/buffCache",'w',encoding='utf-8') as f:
         f.write(txt)
 
 def getBuffCache():
-    with open("buffCache",'r',encoding='utf-8') as f:
+    with open("Cache/buffCache",'r',encoding='utf-8') as f:
         return f.read()
 
 def setSubCache(txt):
-    with open("subscribeCache",'w',encoding='utf-8') as f:
+    with open("Cache/subscribeCache",'w',encoding='utf-8') as f:
         f.write(txt)
 
 def getSubCache():
-    with open("subscribeCache",'r',encoding='utf-8') as f:
+    with open("Cache/subscribeCache",'r',encoding='utf-8') as f:
         return f.read()
 
 class comment:
